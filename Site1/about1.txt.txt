@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обо мне</title>
+</head>
+
+<body>
+
+    <!-- about1.html -->
+
+    <header id="top">
+        <h1>Обо мне</h1>
+
+
+        <nav>
+            <a href="index1.html">Главная</a>
+            <a href="about1.html">Обо мне</a>
+            <a href="friends1.html">Мои друзья</a>
+            <a href="hobbies1.html">Мои хобби</a>
+            <a href="group1.html">Моя учебная группа</a>
+        </nav>
+    </header>
+
+    <main>
+        <img src="C:\Users\win 11\Desktop\для лабы фото\myfoto.jpg" alt="Моя фотография" width="250" height="500">
+
+        <!-- Якорная ссылка на раздел «Навыки» -->
+        <p><a href="#skills">Перейти к навыкам</a></p>
+
+        <article>
+            <p>
+                <h2><strong>Биография</strong></h2><br>
+                Меня зовут Юсуп. Я студент 1 курса направления
+                <strong>«Программная инженерия»</strong>.
+            </p>
+        </article>
+
+        <section>
+            <p>
+                Я учусь в группе <a href="group1.html">ПИЖ-б-о-26-2(2)</a>. <br> Сейчас занят лабораторными работами, пишу конспекты и в основном программирую.
+            </p>
+
+            <hr>
+
+            <h3>Мои цели</h3>
+
+            <p>
+                Стать высококвалифицированным программистом. <br> Узнать больше, чем я знаю сейчас.
+            </p>
+
+        </section>
+
+        <!-- Метка для якорной ссылки: id="skills" -->
+        <section id="skills">
+            <h2>Навыки</h2>
+
+            <ol>
+                <li>
+                    Программирование
+                    <ul>
+                        <li>C++</li>
+                        <li>Python</li>
+                        <li>HTML</li>
+                    </ul>
+                </li>
+
+                <li>
+                    Работа с Git
+                    <ul>
+                        <li>GitBash</li>
+                        <li>GitHub</li>
+                    </ul>
+                </li>
+
+                <li>Работа в VS и VS Code, Terminal</li>
+
+            </ol>
+
+            <hr>
+
+            <h3>Основные инструменты для работы</h3>
+
+            <dl>
+                <dt><strong>C++</strong></dt>
+                <dd>Язык программирования, где важна производительность и низкоуровневый контроль.</dd>
+
+                <dt><strong>Python</strong></dt>
+                <dd>Язык программирования, где важна скорость разработки и простота.</dd>
+
+                <dt><strong>HTML</strong></dt>
+                <dd>Язык разметки веб-страниц.</dd>
+            </dl>
+
+            <p>
+                Я всё глубже погружаюсь в программирование, узнавая все его тонкости и подводные камни. Чем я занимаюсь в свободное время, можно узнать в разделе <a href="hobbies1.html">«Мои хобби»</a>.
+
+            </p>
+
+            <!-- Якорная ссылка обратно наверх страницы -->
+            <p><a href="#top">Наверх ↑</a></p>
+        </section>
+
+    <aside>
+        <p><strong>Внизу вы найдёте ссылки на мои соц сети и на мой профиль на GitHub. А также будет указана моя рабочая почта, по которой вы можете со мной связаться.</strong></p>
+    </aside>
+
+    </main>
+
+    <footer>
+        <p>
+            &copy; 2026 Мой сайт<br>
+            Электронная почта: flmagic.888@gmail.com<br>
+            <a href="https://vk.ru/id1124193917">Переходите на мой профиль в ВК</a><br>
+            <a href="https://github.com/Jokmas">Переходите на мой профиль в GitHub</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>
